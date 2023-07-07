@@ -1,0 +1,74 @@
+.display {
+  height: 100px;
+  background-color: #212121;
+  width: 320px;
+}
+
+.display-expression {
+  color: #bf7082;
+  child-top: 1s;
+  child-bottom: 0s;
+  child-left: 1s;
+  child-right: 0s;
+
+  height: max-content;
+}
+
+.display-result {
+  color: #fff;
+  child-top: 1s;
+  child-bottom: 0s;
+  child-left: 1s;
+  child-right: 0s;
+  height: max-content;
+}
+
+.keypad {
+  /* border: 2px solid green; */
+  width: 320px;
+}
+
+.keypad-row {
+  height: auto;
+}
+
+button.accent {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  background-color: transparent;
+  border-width: 0px;
+
+}
+
+button.accent:over {
+  /* background-color: rgba(22, 22, 22, .4); */
+  background-color: transparent;
+}
+
+button.accent:active {
+  background-color: #aeaeae88;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  child-space: 1s;
+}
+
+.button-span-2 {
+  width: 1s;
+}
+
+.addition,
+.subtraction,
+.multiplication,
+.division {
+  background-color: #8547da;
+  color: #fff;
+}
+
+.result {
+  background-color: #e62f89;
+  color: #fff;
+}
